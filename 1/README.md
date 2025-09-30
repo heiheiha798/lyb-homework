@@ -28,10 +28,15 @@
 
 **示例:**
 
-假设您有一个名为 `example.cnf` 的 DIMACS 文件，您可以通过以下命令运行求解器：
-
 ```bash
-./build/bin/dpll_solver example.cnf
+./build/bin/dpll_solver unif-c500-v250-s453695930.cnf
+
+./build/bin/dpll_solver unif-c1200-v600-s351323111.cnf
+```
+
+预期得到如下输出
+```bash
+
 ```
 
 程序将输出问题的可满足性（**SAT** 或 **UNSAT**）以及如果可满足，还会输出一个**赋值**。它同时也会显示运行所需的**耗时**。
